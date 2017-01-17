@@ -7,31 +7,7 @@ body
 
 .courses
 {
-  text-align: justify
-}
-
-.cat1
-{
-position:relative;
-display: inline-block;
-float:left;
-padding:10px;
-}
-
-.cat2
-{
-position:relative;
-display: inline-block;
-padding:10px;
-}
-
-.cat3
-{
-position:relative;
-display: inline-block;
-float:right;
-margin-right:50%;
-padding:10px;
+  text-align: left;
 }
 
 p
