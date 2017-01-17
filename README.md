@@ -1,1 +1,1 @@
-# janicejellee.github.io
+# JaniceJellee.github.io
