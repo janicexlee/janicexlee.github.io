@@ -18,7 +18,12 @@ body
 
 .z
 {
-  font-family: 'Short Stack', cursive;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.a
+{
+  font-family: 'Muli', sans-serif; 
 }
 
 p
@@ -139,4 +144,19 @@ footer a:hover
 textarea
 {
   resize: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.divider{
+    width:100px;
+    height:auto;
+}
+
+p.w {
+/*    height: 200px;
+    width: 500px;*/
+    text-align: center;
 }
