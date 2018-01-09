@@ -1,54 +1,55 @@
-body
-{
+/*text and main stuff*/
+
+body{
   background: black !important;
   font-family: 'Inconsolata', monospace !important;
   color: #777;
 }
 
-.x
-{
+
+.x{
   text-align: left;
   font-family: 'Nunito Sans', sans-serif;
 }
 
-.y
-{
+.y{
   font-family: 'PT Sans Caption', sans-serif;
 }
 
-.z
-{
+.z{
   font-family: 'Merriweather Sans', sans-serif;
 }
 
-.a
-{
+.a{
   font-family: 'Muli', sans-serif; 
-}
-
-p
-{
+  font-size: 130%;
+  /*width: 800px;*/
   text-align: center;
 }
 
-h1
-{
+p{
+  text-align: center;
+}
+
+h1{
   margin: 10px 0 30px 0;
   letter-spacing: 10px;      
   font-size: 30px;
   color: #ffffff;
 }
 
-h3, h4
-{
+h3, h4{
   margin: 10px 0 30px 0;
   letter-spacing: 10px;      
   font-size: 20px;
   color: #ffffff;
 }
 
-.project
-{
+.classes{
+  padding-left: 2cm;
+}
+
+.project{
   border: 10px solid transparent;
   margin-bottom: 25px;
   width: 80%;
@@ -56,8 +57,7 @@ h3, h4
   opacity: 0.8;
 }
 
-.project:hover
-{
+.project:hover{
   border-color: #dfdfdf;
   opacity: 1;
 }
@@ -158,5 +158,88 @@ textarea
 p.w {
 /*    height: 200px;
     width: 500px;*/
-    text-align: center;
+    padding-left: 4cm;
+    width: 800px;
+    text-align: left;
+}
+
+
+
+
+/*images*/
+
+img.icons {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+img.icons:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.sun {
+  width: 300px;
+}
+
+
+
+
+/*cursor thing*/
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: white;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
 }
