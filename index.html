@@ -40,8 +40,8 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="#skills">SKILLS / COURSEWORK</a></li>
-        <li><a href="#things">EXPERIENCE</a></li>
+        <li><a href="#experiences">EXPERIENCES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
         <li><a href="#funsies">HOBBIES</a></li>
         <li><a href="LeeResume.pdf">RESUME</a></li>
       </ul>
@@ -50,181 +50,296 @@
 </nav>
 
 
-<!-- Container (About Section) -->
-<div id="about" class="container text-center">
-  <h3 style="font-size: 275%">Hello, I'm Janice.</h3>
-  <div class="a">
-    <p>I'm a computer science student at MIT.</p>
-    <p>One thing I'm passionate about is making the world happier, whether it's helping other people, innovating exciting things, or fixing a few of the many problems that we can't escape.</p>
-    <p>I believe coding is powerful and can achieve all the above.</p>
-    <p>Thanks for visiting.</p>
-    <br>
+<!-- About Section -->
+<div id="about" class="part">
+  <div class="home-stuff">
+    <img id="janice-foto" src="img/janice.jpg">
+    <div class="home-description">
+      <h3 style="font-size: 275%">Hello, I'm Janice.</h3>
+      <div class="home-text">
+        <p>I like mac and cheese.</p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/janice-lee-1120/">
+            <img class="home-icon icon-right" src="img/linkedin_icon.png">
+          </a>
+          <a href="https://www.github.com/janicejellee">
+            <img class="home-icon icon-right" src="img/github_icon.png">
+          </a>
+          <a href="LeeResume.pdf">
+            <img class="home-icon" src="img/resume_icon.png">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-  <img src="http://24.media.tumblr.com/7f9b45626428bd58107586b7230404cd/tumblr_mk1eszXhbG1qc4uvwo1_500.gif" class="home-image"/>
 </div>
 
 
 
-<!-- Container (Skills Section) -->
-<div id="skills" class="bg-1">
+<!-- Experiences Section -->
+<div id="experiences" class="part background-2">
   <div class="container text-center prof">
-    <h1>SKILLS</h1>
-    <div>
-      <p>Python</p>
-      <p>Java</p>
-      <p>HTML & CSS</p>
-      <p>JavaScript</p>
-      <p>PHP</p>
-      <p>ROS</p>
-    </div>
-    <br>
-    <h1>COURSEWORK</h1>
-    <div class="row classes">
-      <ul class="col-md-6 x" style="list-style: none">
-        <li style="font-size: 140%">Technical</li>
-        <li>>  Multivariable Calculus</li>
-        <li>>  Classical Mechanics</li>
-        <li>>  Electricity and Magnetism</li>
-        <li>>  Fundamentals of Programming</li>
-        <li>>  Introduction to EECS</li>
-        <li>>  Computation Structures</li>
-        <li>>  Mathematics for Computer Science</li>
-        <li>>  Introduction to Algorithms</li>
-        <li>>  Elements of Software Construction</li>
-        <li>>  Artificial Intelligence</li>
-        <li>>  Introduction to Machine Learning</li>
-        <li>>  Design and Analysis of Algorithms</li>
-        <li>>  User Interface Design & Implementation</li>
-        <li>>  Computer System Engineering</li>
-      </ul>
+    <h1 class="title">EXPERIENCES</h1>
+    <h1 class="exp-title">WORK EXPERIENCE</h1>
+    <a><img hspace="10px" class="img-circle icons" src="img/tumblr.png" data-toggle="modal" data-target="#tumblr-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/csail.jpg" data-toggle="modal" data-target="#csail-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/misti.jpeg" data-toggle="modal" data-target="#misti-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/boeing.jpg" data-toggle="modal" data-target="#boeing-modal"></a>
+    <br><br><br>
+    <h1>ACTIVITES / LEADERSHIP</h1>
+    <a><img hspace="10px" class="img-circle icons" src="img/hackny.png" data-toggle="modal" data-target="#hackny-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/wieecs.png" data-toggle="modal" data-target="#wieecs-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/adt.JPG" data-toggle="modal" data-target="#adt-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/codeu.png" data-toggle="modal" data-target="#codeu-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/upop.jpg" data-toggle="modal" data-target="#upop-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/codeforgood.JPG" data-toggle="modal" data-target="#codeforgood-modal"></a>
+    <a><img hspace="10px" class="img-circle icons" src="img/vex.jpg" data-toggle="modal" data-target="#vex-modal"></a>
 
-      <ul class="col-md-6 x" style="list-style: none">
-        <li style="font-size: 140%">Humanities and Social Science</li>
-        <li>> Science Communication</li>
-        <li>>  Classics of Western Philosophy</li>
-        <li>>  Introduction to Psychological Science</li>
-        <li>>  Japanese I</li>
-        <li>>  Japanese II</li>
-        <li>>  Streamlined Chinese I</li>
-        <li>>  Streamlined Chinese II</li>
-        <li>>  Introduction to Acting</li>
-      </ul>
+    <!-- modals -->
 
+    <div id="csail-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MIT CSAIL Lab</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.csail.mit.edu/"><img class="description-img" src="img/csail.jpg"></a>
+            <h5><strong>Undergrad Researcher</strong></h5>
+            <i>Jun-Aug 2017</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Tested and analyzed sensors and their performance for improvement of positioning of small vehicles including quadcopters and rovers</li>
+              <li>Measured variance of ultra-wide band sensors using ROS and Python</li>
+              <li>Setting up experiments to pair ultra-wide band sensors with GPS sensors to improve localization of small vehicles</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
+
+    <div id="misti-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MISTI Hong Kong</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://misti.mit.edu/"><img class="description-img" src="img/misti.jpeg"></a>
+            <h5><strong>Undergrad Researcher</strong></h5>
+            <i>Jun-Aug 2016<</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Experimented with a Convolutional Neural Network (CNN) Python model to yield best possible time spent and accuracy in training digits and cells data
+              <li>Increased accuracy by adjusting parameters, learned about the different parameters and how they can affect output</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="boeing-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Boeing</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.boeing.com/"><img class="description-img" src="img/boeing.jpg"></a>
+            <h5><strong>High School Intern</strong></h5>
+            <i>Jun-Aug 2014</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Designed a small satellite for the monitoring of earth albedo in a mock project through collaboration with my intern team of 4 and the Boeing Phantom Works division</li>
+              <li>Developed experience in teamwork, project management and spacecraft subsystems and analysis</li>          </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- other modals -->
+
+    <div id="wieecs-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MIT Women in EECS</h4>
+          </div>
+          <div class="modal-body">
+            <a href="http://womenineecs.mit.edu/"><img class="description-img" src="img/wieecs.png"></a>
+            <h5><strong>Community Events Director</strong></h5>
+            <i>Aug 2017-present</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Leading the committee on planning budgets and logistics as well as executing community events to support and engage our community of women in EECS on campus</li>
+              <li>Organizing events that include lightning talks, workshops, movie/game nights, and mixers with other colleges/other women in engineering clubs on campus to bring passionate women together and encourage support of each other</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="adt-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MIT Asian Dance Team</h4>
+          </div>
+          <div class="modal-body">
+            <a href="http://adt.mit.edu/"><img class="description-img" src="img/adt.JPG"></a>
+            <h5><strong>Choreographer</strong></h5>
+            <i>Feb 2017-present</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Led a weekly workshop series for Kpop choreography and techniques open to anyone on campus aimed to improve beginning-intermediate dancers</li>
+              <li>Teaching 25+ dancers a dance that will be performed at our semesterly showcase</li>
+              <li>Dancing Kpop and traditional Asian dances
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="codeu-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Google CodeU Program</h4>
+          </div>
+          <div class="modal-body">
+            <img class="description-img" src="img/codeu.png">
+            <h5><strong>Participant</strong></h5>
+            <i>Feb-May 2017</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Designed and improved a basic chat application in a team of 3 students, adding features including username and password login, simple cryptography, and database persistence</li>
+              <li>Participated in regular code reviews and technical coding practices with Google engineers and learned industry best practices</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="upop-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MIT Undergraduate Practice Opportunities Program</h4>
+          </div>
+          <div class="modal-body">
+            <a href="http://upop.mit.edu/"><img class="description-img" src="img/upop.jpg"></a>
+            <h5><strong>Participant</strong></h5>
+            <i>Oct 2016-May 2017</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Participating in a yearlong professional development program preparing sophomores for success in the workplace</li>
+              <li>Completed an intensive 1-week professional development workshop taught by MIT faculty and industry professionals, exploring topics such as effective communication, foundational decision-making, and teamwork</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="codeforgood-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">MIT Code For Good</h4>
+          </div>
+          <div class="modal-body">
+            <a href="http://codeforgood.mit.edu/"><img class="description-img" src="img/codeforgood.JPG"></a>
+            <h5><strong>Consulting Team</strong></h5>
+            <i>Oct 2016-Feb 2017</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Collaborated in a small team to assist our nonprofit (Green Streets Initiative) with technical issues</li>
+              <li>Created an employer interface on our nonprofit’s website, utilizing Python, Django, and HTML and CSS, so that employers participating in their program, Walk/Ride Day, can access their individual company’s statistics</li>
+              <li>Communicated with our nonprofit to provide solutions and suggestions to any requests for new features/improvements</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="vex-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">WHS Vex Robotics</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.vexrobotics.com/"><img class="description-img" src="img/vex.jpg"></a>
+            <h5><strong>Programmer</strong></h5>
+            <i>Sept 2013-Jun 2015</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Wrote code for our competition and demo robots, showcased at competitions, outreach eventsand demos at local schools and fairs</li>
+              <li>Taught basic RobotC programming and building skills to 20+ students during our “Robocamp” for two summers</li>
+              <li>Demonstrated teamwork, time management, and communication skills to grow as a team and achieve team goals</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
-<!-- Container (Things Section) -->
-<div id="things" class="container y">
-  <h1 class="text-center">EXPERIENCES</h1>
-  <p class="text-center">Here are some things I've done, which include work experience, activities, and leadership roles.</p><br>
+<!-- Projects Section -->
+<div id="projects" class="container y">
+  <h1 class="title">PROJECTS</h1>
 
-  <h1>WORK EXPERIENCE</h1>
-  <div class="row">
-    <a href="https://www.csail.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/csail.jpg" height="50" width="50"></a>
-    <h3>MIT CSAIL Lab</h3>
-    <h5><strong>Undergrad Researcher</strong>  |  <i>Jun-Aug 2017</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Tested and analyzed sensors and their performance for improvement of positioning of small vehicles including quadcopters and rovers</li>
-      <li>Measured variance of ultra-wide band sensors using ROS and Python</li>
-      <li>Setting up experiments to pair ultra-wide band sensors with GPS sensors to improve localization of small vehicles</li>
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <a href="http://misti.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/misti.jpeg" height="50" width="50"></a>
-    <h3>MISTI Hong Kong</h3>
-    <h5><strong>Undergrad Researcher</strong>  |  <i>Jun-Aug 2016</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Experimented with a Convolutional Neural Network (CNN) Python model to yield best possible time spent and accuracy in training digits and cells data
-      <li>Increased accuracy by adjusting parameters, learned about the different parameters and how they can affect output</li>
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <a href="https://www.boeing.com/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/boeing.jpg" height="50" width="50"></a>
-    <h3>Boeing HS Internship</h3>
-    <h5><strong>Phantom Phoenix Intern</strong>  |  <i>Jun-Aug 2014</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Designed a small satellite for the monitoring of earth albedo in a mock project through collaboration with my intern team of 4 and the Boeing Phantom Works division</li>
-      <li>Developed experience in teamwork, project management and spacecraft subsystems and analysis</li>
-    </ul>
-  </div>
-  <br>
-  <h1>ACTIVITIES / LEADERSHIP</h1>
-  <div class="row">
-    <a href="http://womenineecs.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/wieecs.png" height="50" width="50"></a>
-    <h3>MIT Women in EECS</h3>
-    <h5><strong>Community Events Committee</strong>  |  <i>Aug 2017-present</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Leading the committee on planning budgets and logistics as well as executing community events to support and engage our community of women in EECS on campus</li>
-      <li>Organizing events that include lightning talks, workshops, movie/game nights, and mixers with other colleges/other women in engineering clubs on campus to bring passionate women together and encourage support of each other</li>
-    </ul>
-  </div>
-  <br>
-    <div class="row">
-    <a href="http://adt.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/adt.JPG" height="50" width="50"></a>
-    <h3>MIT Asian Dance Team</h3>
-    <h5><strong>Choreographer</strong>  |  <i>Feb 2017-present</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Led a weekly workshop series for Kpop choreography and techniques open to anyone on campus aimed to improve beginning-intermediate dancers</li>
-      <li>Teaching 25+ dancers a dance that will be performed at our semesterly showcase</li>
-      <li>Dancing Kpop and traditional Asian dances
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <img style="float: left" hspace="10px" class="img-circle icons" src="img/codeu.JPG" height="50" width="50">
-    <h3>Google CodeU Program</h3>
-    <h5><strong>Participant</strong>  |  <i>Feb-May 2017</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Designed and improved a basic chat application in a team of 3 students, adding features including username and password login, simple cryptography, and database persistence</li>
-      <li>Participated in regular code reviews and technical coding practices with Google engineers and learned industry best practices</li>
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <a href="https://upop.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/upop.jpg" height="50" width="50"></a>
-    <h3>MIT Undergraduate Practice Opportunities Program</h3>
-    <h5><strong>Participant</strong>  |  <i>Oct 2016-present</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Participating in a yearlong professional development program preparing sophomores for success in the workplace</li>
-      <li>Completed an intensive 1-week professional development workshop taught by MIT faculty and industry professionals, exploring topics such as effective communication, foundational decision-making, and teamwork</li>
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <a href="http://codeforgood.mit.edu/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/codeforgood.JPG" height="50" width="50"></a>
-    <h3 id="huh">MIT Code For Good</h3>
-    <h5><strong>Consulting Team</strong>  |  <i>Oct 2016-Feb 2017</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Collaborated in a small team to assist our nonprofit (Green Streets Initiative) with technical issues</li>
-      <li>Created an employer interface on our nonprofit’s website, utilizing Python, Django, and HTML and CSS, so that employers participating in their program, Walk/Ride Day, can access their individual company’s statistics</li>
-      <li>Communicated with our nonprofit to provide solutions and suggestions to any requests for new features/improvements</li>
-    </ul>
-  </div>
-  <br>
-  <div class="row">
-    <a href="https://www.vexrobotics.com/"><img style="float: left" hspace="10px" class="img-circle icons" src="img/vex.jpg" height="50" width="50"></a>
-    <h3>WHS Vex Robotics</h3>
-    <h5><strong>Programmer</strong>  |  <i>Sept 2013-Jun 2015</i></h5>
-    <ul class="col-md-6 x"> <!-- style="list-style: none"> -->
-      <li>Wrote code for our competition and demo robots, showcased at competitions, outreach eventsand demos at local schools and fairs</li>
-      <li>Taught basic RobotC programming and building skills to 20+ students during our “Robocamp” for two summers</li>
-      <li>Demonstrated teamwork, time management, and communication skills to grow as a team and achieve team goals</li>
-    </ul>
-  </div>
+  <h1>WORK IN PROGRESS</h1>
+
 </div>
 
-<!-- Container (Funsies Section) -->
-<div id="funsies" class="bg-1 z">
-  <div class="container">
-    <h1 class="text-center">HOBBIES</h1>
+<!-- Funsies Section -->
+<div id="funsies" class="part background-2 z">
+  <div class="hobbies-stuff">
+    <h1 class="hobbies-title">HOBBIES</h1>
     <p class ="hobbies">Outside of classes, you can probably find me doing one of the following...</p>
-    <p class="hobbies text-center">I like to do arts and crafts, like making star jars as gifts, folding origami, and making cards for random occasions. I like to dance. I'm on my school's Asian Dance Team and like learning various pieces I find on YouTube with friends. I love playing the piano, clarinet, and learning new instruments. I like to travel to pretty, interesting places...I dream to see an aurora and a clear, star speckled sky one day. I also love cooking, watching shows/movies, doing jigsaw puzzles, taking pictures of everything, enjoying the sunset, hanging with friends and family, and drinking tea. I love milk tea and macaroni and cheese!</p>
+    <br>
+    <p class="hobbies text-center">I like to do arts and crafts, like folding origami and making cards for random occasions. I like to dance. I'm on my school's Asian Dance Team and like learning various pieces I find on YouTube with friends. I love playing the piano, clarinet, and learning new instruments. I like to travel to pretty, interesting places...I dream to see an aurora and a clear, star speckled sky one day. I also love cooking, watching shows/movies, doing jigsaw puzzles, taking pictures of everything, enjoying the sunset, playing instruments, hanging with friends and family, and drinking tea. I love milk tea and macaroni and cheese!</p>
+    <br>
     <p class ="hobbies">You may also find me just staring blank at a random object daydreaming. I try to appreciate every moment as much as possible because all these moments make up our lives.</p>
     <center><img src="img/sunshine.gif" class="img-circle sun text-center"></center>
-    <br><p>Images credit: <a href="http://chibird.com">Chibird</a> :)</p>
+    <br><p>Image credit: <a href="http://chibird.com">Chibird</a> :)</p>
   </div>
 </div>
 
