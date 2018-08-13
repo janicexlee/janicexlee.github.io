@@ -122,6 +122,8 @@ img.icons:hover {
 
 .hobbies-title {
   padding-top: 85px;
+  font-size: 45px;
+  text-align: center;
 }
 
 .hobbies-stuff {
@@ -133,9 +135,9 @@ img.icons:hover {
 }
 
 p.hobbies {
-    margin: auto;
-    width: 40vw;
-    text-align: left;
+  margin: auto;
+  width: 36vw;
+  text-align: left;
 }
 
 
