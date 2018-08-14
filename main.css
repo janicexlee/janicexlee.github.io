@@ -121,6 +121,47 @@ img.icons:hover {
 
 /* projects */
 
+.projects-container {
+
+}
+
+.projects-font{
+  font-family: 'Muli', sans-serif;
+}
+
+.all-projects {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 90%;
+  text-align: center;
+}
+
+.card {
+  background: white;
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  text-align: left;
+  margin: 25px;
+  border-radius: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card img {
+  border-radius: 2%;
+}
 
 /* skills */
 
@@ -128,7 +169,8 @@ img.icons:hover {
 /* hobbies */
 
 .hobbies-title {
-  padding-top: 85px;
+  padding-top: 60px;
+  margin-bottom: 50px;
   font-size: 45px;
   text-align: center;
 }
@@ -143,8 +185,9 @@ img.icons:hover {
 
 p.hobbies {
   margin: auto;
-  width: 37vw;
+  width: 50%;
   text-align: left;
+  font-size: 15px;
 }
 
 
@@ -226,9 +269,6 @@ body{
   color: #404040;
 }
 
-.y{
-  font-family: 'Muli', sans-serif;
-}
 
 .z{
   font-family: 'Muli', sans-serif;
