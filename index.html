@@ -97,6 +97,31 @@
 
     <!-- modals -->
 
+    <div id="tumblr-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Tumblr</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.tumblr.com"><img class="description-img" src="img/tumblr.png"></a>
+            <h5><strong>Software Engineering Intern</strong></h5>
+            <i>Jun-Aug 2018</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Added support for OAuth2 authorization for users of Tumblr’s APIs</li>
+              <li>Planned out the process of enabling OAuth2 publicly and executing subtasks, including discussions with other engineers and updating client libraries</li>
+              <li>Worked on various API related tasks and contributed during weekly team meetings, code reviews, and task allocation as a part of the API/Core PHP team</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="csail-modal" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -107,12 +132,13 @@
           <div class="modal-body">
             <a href="https://www.csail.mit.edu/"><img class="description-img" src="img/csail.jpg"></a>
             <h5><strong>Undergrad Researcher</strong></h5>
+            <h5><strong>Distributed Robotics Lab</strong></h5>
             <i>Jun-Aug 2017</i>
             <br><br>
             <ul class="exp-description">
               <li>Tested and analyzed sensors and their performance for improvement of positioning of small vehicles including quadcopters and rovers</li>
               <li>Measured variance of ultra-wide band sensors using ROS and Python</li>
-              <li>Setting up experiments to pair ultra-wide band sensors with GPS sensors to improve localization of small vehicles</li>
+              <li>Set up experiments to pair ultra-wide band sensors with GPS sensors to improve localization of small vehicles</li>
             </ul>
           </div>
           <div class="modal-footer">
@@ -170,6 +196,30 @@
     </div>
 
     <!-- other modals -->
+
+    <div id="hackny-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">HackNY Fellowship Program</h4>
+          </div>
+          <div class="modal-body">
+            <a href="https://www.hackny.org"><img class="description-img" src="img/hackny.png"></a>
+            <h5><strong>Fellow</strong></h5>
+            <i>May-Aug 2018</i>
+            <br><br>
+            <ul class="exp-description">
+              <li>Participated in HackNY's speaker series at various NYC startups</li>
+              <li>Worked on coding projects for social good in a community of fellows and mentors</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div id="wieecs-modal" class="modal fade" role="dialog">
       <div class="modal-dialog">
@@ -327,48 +377,187 @@
 <div id="projects" class="projects-font">
   <h1 class="title">PROJECTS</h1>
 
-  <h1>WORK IN PROGRESS</h1>
-
   <div class="all-projects">
-  <div class="card">
-    <img class="card-img-top" src="https://data.whicdn.com/images/307134942/superthumb.jpg?t=1518423542" alt="Card image cap">
+  <a>
+  <div class="card" data-toggle="modal" data-target="#scripted-modal">
+    <img class="card-img-top card-image" src="img/scripted-project.png" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Project!</h5>
-      <p class="card-text">COMING SOOOOOOOOOOOOON.....</p>
+      <h5 class="card-title">ScriptEd</h5>
+      <p class="card-text">Project Gallery</p>
+    </div>
+  </div>
+  </a>
+
+  <a>
+  <div class="card" data-toggle="modal" data-target="#toy-modal">
+    <img class="card-img-top card-image" src="img/cogtoybox-project.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Cognitive Toybox</h5>
+      <p class="card-text">Teacher and Admin Dashboard</p>
+    </div>
+  </div>
+  </a>
+
+  <a>
+  <div class="card" data-toggle="modal" data-target="#pig-modal">
+    <img class="card-img-top card-image" src="img/pigeon-project4.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">PigeonBot</h5>
+      <p class="card-text">Pigeon Meme Maker</p>
+    </div>
+  </div>
+  </a>
+
+  <a>
+  <div class="card" data-toggle="modal" data-target="#green-modal">
+    <img class="card-img-top card-image" src="img/green-project1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Green Streets Initiative</h5>
+      <p class="card-text">Company Dashboard</p>
+    </div>
+  </div>
+  </a>
+
+  <!-- modals -->
+  <div id="scripted-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">ScriptEd</h4>
+        </div>
+        <div class="modal-body">
+          <a href="https://www.scripted.org/"><img class="card-image" src="img/scripted-project.png" style="width: 80%; height: 20%"></a>
+          <h5><strong>Project Gallery</strong></h5>
+          <br>
+          <p>
+            We created a project gallery site for ScriptEd students to submit their projects to.
+            This included a form page where a screenshot, Github usernames, and tags (like category) could be submitted.
+            The site also has an admin page, where admins can add tags, approve and delete projects, provide feedback, and edit tags.
+          </p>
+          <p>
+            The project gallery displays projects in grid format, and projects can be sorted by different variables.
+            Projects in the gallery also lead to their individual project page, which shows GitHub usernames and icons and the project descriptions for instance.
+          </p>
+          <p>
+            This was a HackNY social good project.
+          </p>
+          <br>
+          <p>Languages and tools: Python, HTML & CSS, JavaScript, Flask, MySQL, SQLAlchemy</p>
+          <p style="font-size: 8px">I wasn't sure if I should include screenshots in case ScriptEd would not like it to be public yet.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <img class="card-img-top" src="https://data.whicdn.com/images/307134942/superthumb.jpg?t=1518423542" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Project!</h5>
-      <p class="card-text">COMING SOOOOOOOOOOOOON.....</p>
+  <div id="toy-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cognitive Toybox</h4>
+        </div>
+        <div class="modal-body">
+          <img class="card-image" src="img/cogtoybox-project.png" style="width: 80%; height: 20%">
+          <h5><strong>Teacher Dashboard</strong></h5>
+          <br>
+          <p>
+            We created a dashboard for teachers and district admins to view data from the Cognitive Toybox app.
+            This included a data section with charts and tables showing a range of metrics.
+          </p>
+          <p>
+            There is a classroom management page, where distrct admins and teachers can also edit classroom and district settings as well as the dashboard users on the management page.
+          </p>
+          <p>
+            Lastly, there's a reports page, where objective and individual student reports can be seen.
+          </p>
+          <p>
+            This was a HackNY social good project.
+          </p>
+          <br>
+          <p>Languages and tools: HTML & CSS, JavaScript, React, Chart.js</p>
+          <p style="font-size: 8px">I wasn't sure if I should include screenshots in case Cognitive Toybox would not like it to be public.</p>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <img class="card-img-top" src="https://data.whicdn.com/images/307134942/superthumb.jpg?t=1518423542" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Project!</h5>
-      <p class="card-text">COMING SOOOOOOOOOOOOON.....</p>
+  <div id="pig-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">PigeonBot</h4>
+        </div>
+        <div class="modal-body">
+          <h5><strong>Meme Slack Bot</strong></h5>
+          <br>
+          <p>
+            PigeonBot is a simple SlackBot meme generator that generates the pigeon meme.
+            It's sorta dumb and janky, but I made it for fun. :3
+          </p>
+          <p style="text-align: center">an example meme it makes:</p>
+          <img class="card-image" src="img/pigeon-project1.png" style="width: 80%; height: 20%">
+          <br>
+          <p style="text-align: center">an example command (with image):</p>
+          <img class="card-image" src="img/pigeon-project2.png" style="width: 80%; height: 20%">
+          <br>
+          <p style="text-align: center">the output:</p>
+          <img class="card-image" src="img/pigeon-project3.png" style="width: 80%; height: 20%">
+          <br><br>
+          <p>Languages and tools: Python</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <img class="card-img-top" src="https://data.whicdn.com/images/307134942/superthumb.jpg?t=1518423542" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Project!</h5>
-      <p class="card-text">COMING SOOOOOOOOOOOOON.....</p>
+  <div id="green-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Green Streets Initiative</h4>
+        </div>
+        <div class="modal-body">
+          <h5><strong>Company Dashboard</strong></h5>
+          <br>
+          <p>
+            In order to give companies in Green Street's Corporate Challenge a better understanding of their impact on Walk/Ride Day
+            and better control over their employees’ participation, we made an employer interface
+            where each employer can access their employees’ check-in survey data, as well as overall statistics
+            for each month and each year. Some statistics include percentage of employee participation, total calories burned,
+            total carbon dioxide emitted and saved, modes of transportation and total duration traveled for each mode for
+            both Walk-Ride Day and Normal Days, and graphs of progress over the past year.
+          </p>
+          <br>
+          <p style="text-align: center">the survey we took data from:</p>
+          <img class="card-image" src="img/green-project3.png" style="width: 80%; height: 20%">
+          <br><br>
+          <p style="text-align: center">individual surveys tab:</p>
+          <img class="card-image" src="img/green-project1.png" style="width: 80%; height: 20%">
+          <br><br>
+          <p style="text-align: center">some graphs:</p>
+          <br>
+          <img class="card-image" src="img/green-project2.png" style="width: 80%; height: 20%">
+          <br><br><br>
+          <p>Languages and tools: Python, Django, HTML & CSS, JavaScript, Bokeh</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="card">
-    <img class="card-img-top" src="https://data.whicdn.com/images/307134942/superthumb.jpg?t=1518423542" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Project!</h5>
-      <p class="card-text">COMING SOOOOOOOOOOOOON.....</p>
-    </div>
-  </div>
 </div>
 
 </div>
