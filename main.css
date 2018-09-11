@@ -89,7 +89,6 @@ h1 {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    /* float: left; */
 }
 
 img.icons {
@@ -121,8 +120,8 @@ img.icons:hover {
 
 /* projects */
 
-.projects-container {
-
+.project-title {
+  padding-top: 60px;
 }
 
 .projects-font{
@@ -131,9 +130,9 @@ img.icons:hover {
 
 .all-projects {
   margin: auto;
-  margin-bottom: 50px;
   width: 70vw;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -209,6 +208,47 @@ p.hobbies {
   font-size: 15px;
 }
 
+#interests-section {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+#interest-cards {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 1;
+  justify-content: center;
+}
+
+.interest-card {
+  height: 485px;
+  width: 275px;
+  background: #dbd9d9;
+  color: #404040;
+  margin: 15px;
+  border-radius: 3%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.interests-img {
+  height: 250px;
+  width: 250px;
+  border-radius: 2%;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+#interests-section p {
+  line-height: 20px;
+  font-size: 13px;
+  margin: 0px 15px;
+  text-align: left;
+}
 
 /* navbar */
 
@@ -304,13 +344,6 @@ p{
   font-family: 'Muli', sans-serif;
   color: #404040;
 }
-
-/* h3, h4{
-  margin: 10px 0 30px 0;
-  letter-spacing: 2px;
-  font-size: 20px;
-  color: #404040;
-} */
 
 .project{
   border: 10px solid transparent;
