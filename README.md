@@ -1,2 +1,4 @@
-# janicejellee.github.io
-My personal website :3
+# janicexlee.github.io
+My personal website!
+
+Old... don't look yet...
